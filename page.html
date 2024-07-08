@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everton Paulo Andrade - GitHub</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #333;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            margin: 20px;
+        }
+        header {
+            background: #444;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .content h1 {
+            margin-top: 0;
+            color: #eee;
+            font-size: 1.8em;
+        }
+        .repo {
+            background: #555;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            transition: background 0.3s;
+        }
+        .repo:hover {
+            background: #666;
+        }
+        .repo h2 {
+            margin: 0 10px;
+            font-size: 1.4em;
+        }
+        .repo img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .repo p {
+            margin: 0 10px;
+            color: #ccc;
+        }
+        @media (max-width: 768px) {
+            .repo {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .repo img {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Everton Paulo Andrade - GitHub Repositories</h1>
+        </div>
+    </header>
+    <div class="container content">
+        <h1>About Me</h1>
+        <p>Hello! I'm Everton, a 20-year-old Information Systems student focusing on Backend development, networks, and Information Security. I have intermediate knowledge in Python and am currently studying JavaScript, CSS3, and HTML5. My goal is to become a Full-stack Developer.</p>
+        
+        <h1>My Repositories</h1>
+        <div class="repo">
+            <img src="https://cdn-icons-png.flaticon.com/128/3665/3665923.png" alt="Gerador de Senhas em C Icon">
+            <h2><a href="https://github.com/EvertonPauloAndrade/Gerador-de-Senhas-em-C">Gerador-de-Senhas-em-C</a></h2>
+            <p>A C program for generating secure passwords.</p>
+        </div>
+        <div class="repo">
+            <img src="https://cdn-icons-png.flaticon.com/128/149/149452.png" alt="Bio Icon">
+            <h2><a href="https://github.com/EvertonPauloAndrade/EvertonPauloAndrade">EvertonPauloAndrade</a></h2>
+            <p>My personal bio repository.</p>
+        </div>
+        <div class="repo">
+            <img src="https://as2.ftcdn.net/v2/jpg/04/98/04/67/1000_F_498046723_3LiFLUjCRRtBLmu3QrvvMMJqHtsv8Rzs.jpg" alt="Nyan Cat Game Icon">
+            <h2><a href="https://github.com/EvertonPauloAndrade/NyanCatGame-School-Project">NyanCatGame-School-Project</a></h2>
+            <p>A school project written in Python, featuring a Nyan Cat game.</p>
+        </div>
+        <div class="repo">
+            <img src="https://cdn-icons-png.flaticon.com/128/188/188918.png" alt="Batalha Pokemon Icon">
+            <h2><a href="https://github.com/EvertonPauloAndrade/Batalha-Pokemon">Batalha-Pokemon</a></h2>
+            <p>A Java-based Pokémon battle game.</p>
+        </div>
+    </div>
+</body>
+</html>
